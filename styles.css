@@ -65,3 +65,18 @@ mark
     font-weight: bold;
     padding: 1%;
 }
+
+#copy
+{
+    color: rgb(2, 38, 58);
+    background-color: goldenrod;
+    margin-bottom: 2.5%;
+    border-radius: 5px;
+}
+
+#pass_txt
+{
+
+    font-weight: bold;
+    padding: 1%;
+}

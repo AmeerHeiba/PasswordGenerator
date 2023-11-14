@@ -55,6 +55,14 @@ function newPassword()
 
 }
 
+function copyPass()
+{
+    passtxt.select();
+    passtxt.setSelectionRange(0, 99999)
+    navigator.clipboard.writeText(passtxt.value);
+    alert("Password Copied to Clipboard");
+}
+
 
 
 
