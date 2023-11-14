@@ -3,15 +3,19 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 let pass = [];
 let passtxt = document.getElementById("pass_txt");
+let passwordLenM = document.getElementById("passlength-select");
+let passwordLen = passwordLenM.value;
 
+console.log (passwordLen);
 
 function newPassword()
 {
 
+    passwordLen = passwordLenM.value;
     passtxt.textContent = "";
     pass = [];
 
-    for (let index = 0; index < 16; index++) {
+    for (let index = 0; index < passwordLen; index++) {
         
         pass.push(characters[Math.ceil(Math.random()*90)]);
         passtxt.textContent += pass [index];
@@ -20,6 +24,7 @@ function newPassword()
     }
 
 }
+
 
 
 

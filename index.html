@@ -15,12 +15,26 @@
         <h2 class="h2" id="title_h"><mark>Generate</mark> a random Password</h2>
         <p id="para">Never use an insecure password again.</p>
         <button id="generate_btn" onclick="newPassword()">Generate password</button>
+        
+        <select id="passlength-select"> 
+            <option value="8">8 chars</option> 
+            <option value="16">16 chars</option>
+            <option value="32">32 chars</option> 
+          </select> 
+
+          <select id="passtype-select"> 
+            <option value="1">use chars number and </option> 
+            <option value="2">16 chars</option>
+            <option value="3">32 chars</option> 
+          </select> 
         <hr>
         <div class="container text-center">
             <div class="alert alert-primary" role="alert">
                 <p id="pass_txt"></p>
               </div>
         </div>
+
+
     </div>
 
 

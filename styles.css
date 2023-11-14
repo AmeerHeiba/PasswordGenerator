@@ -33,6 +33,14 @@
     font-weight: bold;
 }
 
+#passlength-select
+{
+    color: rgb(2, 38, 58);
+    background-color: #9BBEC8;
+    font-weight: bold;
+    padding: 1%;
+}
+
 hr
 {
     color: aliceblue;
