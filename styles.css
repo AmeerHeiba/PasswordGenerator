@@ -1,0 +1,51 @@
+#main_sc
+{
+    border-style: solid;
+    border-color: blue;
+    border-radius: 10px;
+    margin-top: 5%;
+    padding: 5%;
+    background-color:rgb(2, 38, 58);
+    
+}
+
+#title_h
+{
+    color: #9BBEC8;
+    margin-top: 5%;
+    margin-left: 1.5%;
+}
+
+#para
+{
+    color:#DDF2FD ;
+    margin: 1.5%;
+}
+
+#generate_btn
+{
+    border-radius: 5px;
+    padding: 1%;
+    margin-left: 1.5%;
+    margin-bottom: 5%;
+    color: rgb(2, 38, 58);
+    background-color: #9BBEC8;
+    font-weight: bold;
+}
+
+hr
+{
+    color: aliceblue;
+}
+
+mark
+{
+    color: rgb(2, 38, 58);
+    background-color: goldenrod
+}
+
+#headline
+{
+    color: rgb(2, 38, 58);
+    margin-left: 35%;
+}
